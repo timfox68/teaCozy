@@ -107,6 +107,7 @@ img {
   /*background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-backgr//ound.jpg);*/
   justify-content: space-around;
   align-items: center;
+  margin: auto;
 }
 
 .loc {
@@ -115,6 +116,7 @@ img {
   background-color: black;
   text-align: center;
   opacity: 1;
+  margin: auto;
 }
 
 footer {
@@ -134,5 +136,6 @@ footer .title {
 }
 
 .copyright {
-  align-content: flex-end;
+  padding-left: 20px;
+  text-align: left;
 }
