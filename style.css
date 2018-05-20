@@ -1,0 +1,138 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  text-decoration: underline;
+  top: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  flex-grow: 1;
+}
+
+.logo img {
+  width: auto;
+  height: 50px;
+}
+
+a {
+  color: seashell;
+}
+
+nav {
+  display: flex;
+}
+
+nav span {
+  justify-content: space-around;
+  padding-right: 50px;
+  display: inline-flex;
+}
+
+#main {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  align-items: center;
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+}
+
+.banner {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+#teaOfMonth {
+  display: flex;
+  width: 1000px;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+#teaOfMonth h2 {
+  width: 100%;
+}
+
+h4 {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.tom {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+}
+
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+}
+
+#locations h2 {
+  text-align: center;
+}
+
+#locations2 {
+  display: flex;
+  /*background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-backgr//ound.jpg);*/
+  justify-content: space-around;
+  align-items: center;
+}
+
+.loc {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  opacity: 1;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  margin: auto;
+}
+
+footer .title {
+  display: inline-block;
+  padding-top: 20px;
+  color: white;
+}
+
+.copyright {
+  align-content: flex-end;
+}
